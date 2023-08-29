@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Hiwot\Pictures\ecommerce\build\windows\CMakeFiles\cc3e9631e8c5308e3c7f3586582a42f8\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C0AF8DD0-9BF3-3477-9716-8E07D586BBAF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

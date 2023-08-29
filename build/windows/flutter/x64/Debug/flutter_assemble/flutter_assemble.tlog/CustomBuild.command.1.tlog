@@ -1,0 +1,28 @@
+^C:\USERS\HIWOT\PICTURES\ECOMMERCE\BUILD\WINDOWS\CMAKEFILES\91D153BFEFA2E7114EEB108F1B8BB2E1\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\src\flutter PROJECT_DIR=C:\Users\Hiwot\Pictures\ecommerce FLUTTER_ROOT=C:\src\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\Hiwot\Pictures\ecommerce\windows\flutter\ephemeral PROJECT_DIR=C:\Users\Hiwot\Pictures\ecommerce FLUTTER_TARGET=C:\Users\Hiwot\Pictures\ecommerce\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC80NWY2ZTAwOTExMGRmNGYzNGVjMmNmOTlmNjNjZjczYjcxYjdhNDIwLw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\Hiwot\Pictures\ecommerce\.dart_tool\package_config.json C:/src/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\HIWOT\PICTURES\ECOMMERCE\BUILD\WINDOWS\CMAKEFILES\4B21FF72C8331A8CDA5429A149464791\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\HIWOT\PICTURES\ECOMMERCE\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Hiwot/Pictures/ecommerce/windows -BC:/Users/Hiwot/Pictures/ecommerce/build/windows --check-stamp-file C:/Users/Hiwot/Pictures/ecommerce/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
